@@ -32,7 +32,7 @@ struct CirlceButtonView_Previews: PreviewProvider {
                 .previewLayout(.sizeThatFits)
             CirlceButtonView(iconName: "plus")
                 .previewLayout(.sizeThatFits)
-                .colorScheme(.dark)
+                .preferredColorScheme(.dark)
         }
     }
 }
